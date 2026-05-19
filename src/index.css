@@ -1,0 +1,15 @@
+/* @import "tailwindcss";
+
+@theme {
+  --color-background: var(--bg-primary);
+  --color-secondary: var(--bg-secondary);
+  --color-card: var(--bg-card);
+
+  --color-textPrimary: var(--text-primary);
+  --color-textSecondary: var(--text-secondary);
+
+  --color-borderPrimary: var(--border-primary);
+
+  --color-accent: var(--accent-primary);
+  --color-accentSecondary: var(--accent-secondary);
+} */

@@ -1,0 +1,239 @@
+/* =========================================
+   FLOAT
+========================================= */
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 1.2s ease-in-out infinite;
+}
+
+/* =========================================
+   GLOW PULSE
+========================================= */
+
+@keyframes glowPulse {
+  0% {
+    box-shadow: 0 0 20px rgba(124, 58, 237, 0.25);
+  }
+
+  50% {
+    box-shadow: 0 0 40px rgba(124, 58, 237, 0.45);
+  }
+
+  100% {
+    box-shadow: 0 0 20px rgba(124, 58, 237, 0.25);
+  }
+}
+
+.animate-glow {
+  animation: glowPulse 3s ease-in-out infinite;
+}
+
+/* =========================================
+   GRID MOVE
+========================================= */
+
+@keyframes gridMove {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 40px 40px;
+  }
+}
+
+.animate-grid {
+  animation: gridMove 12s linear infinite;
+}
+
+/* =========================================
+   HERO TEXT REVEAL
+========================================= */
+
+.hero-line {
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+
+  animation: typingReveal 1s forwards;
+}
+
+.hero-line-1 {
+  animation-delay: 0.2s;
+}
+
+.hero-line-2 {
+  animation-delay: 1.1s;
+}
+
+.hero-line-3 {
+  animation-delay: 2s;
+}
+
+@keyframes typingReveal {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+/* =========================================
+   TERMINAL CODE LOOP
+========================================= */
+
+.code-line {
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+
+  opacity: 0;
+
+  animation: terminalTyping 6s infinite;
+}
+
+.code-line-1 {
+  animation-delay: 0s;
+}
+
+.code-line-2 {
+  animation-delay: 0.8s;
+}
+
+.code-line-3 {
+  animation-delay: 1.6s;
+}
+
+.code-line-4 {
+  animation-delay: 2.4s;
+}
+
+.code-line-5 {
+  animation-delay: 3.2s;
+}
+
+@keyframes terminalTyping {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  40% {
+    width: 100%;
+    opacity: 1;
+  }
+
+  70% {
+    width: 100%;
+    opacity: 1;
+  }
+
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+
+/* =========================================
+   TECH STACK MARQUEE
+========================================= */
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 14s linear infinite;
+
+  will-change: transform;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* MOBILE SPEED */
+
+@media (max-width: 768px) {
+  .animate-marquee {
+    animation-duration: 14s;
+  }
+}
+
+/* =========================================
+   SKILLS ORBIT ROTATION
+========================================= */
+
+@keyframes orbitClockwise {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes orbitAntiClockwise {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.animate-orbit-clockwise {
+  animation: orbitClockwise 26s linear infinite;
+}
+
+.animate-orbit-anticlockwise {
+  animation: orbitAntiClockwise 18s linear infinite;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.45s ease;
+}
