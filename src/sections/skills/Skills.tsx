@@ -2,7 +2,6 @@
 
 import Container from "../../components/ui/Container";
 
-import SkillsCenter from "./SkillsCenter";
 import SkillsOrbit from "./SkillsOrbit";
 
 function Skills() {

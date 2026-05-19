@@ -1,5 +1,3 @@
-import GlassCard from "../../components/ui/GlassCard";
-
 import aboutProfile from "../../assets/images/about-profile.png";
 
 import { MapPin } from "lucide-react";
