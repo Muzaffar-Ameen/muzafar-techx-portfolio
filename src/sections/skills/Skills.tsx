@@ -8,7 +8,7 @@ function Skills() {
       {/* GRID */}
       <div className="grid-background absolute inset-0 opacity-20" />
 
-      {/* GLOW */}
+      {/* GLOW hai */}
       <div className="absolute left-1/2 top-1/2 " />
 
       <Container>
