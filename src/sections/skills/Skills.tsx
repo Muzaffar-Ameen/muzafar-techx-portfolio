@@ -1,5 +1,3 @@
-// Skills.tsx
-
 import Container from "../../components/ui/Container";
 
 import SkillsOrbit from "./SkillsOrbit";
