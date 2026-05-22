@@ -221,7 +221,7 @@ export default function ContactInfo() {
                   light:text-black
                 "
               >
-                +92 347 4862915
+                +92 320 3685961
               </a>
             </div>
           </div>

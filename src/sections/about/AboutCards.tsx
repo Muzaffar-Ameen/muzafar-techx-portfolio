@@ -1,20 +1,8 @@
 import GlassCard from "../../components/ui/GlassCard";
 
-import { Briefcase, GraduationCap, MapPin, Rocket } from "lucide-react";
+import { Briefcase, Rocket, MapPin, Code2 } from "lucide-react";
 
 const cards = [
-  {
-    icon: GraduationCap,
-    title: "Education",
-    badge: "Academic",
-    lines: [
-      "BS Computer Science",
-      "UCP, Lahore",
-      "2021 - 2025",
-      "CGPA: 3.63 / 4.0",
-    ],
-  },
-
   {
     icon: Briefcase,
     title: "Experience",
@@ -35,8 +23,14 @@ const cards = [
     badge: "Based In",
     lines: ["Lahore, Pakistan", "Available Worldwide", "GMT +5"],
   },
-];
 
+  {
+    icon: Code2,
+    title: "Expertise",
+    badge: "Tech Stack",
+    lines: ["React & Next.js", "Node.js & Express", "MongoDB & APIs"],
+  },
+];
 function AboutCards() {
   return (
     <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:gap-6 xl:gap-7">

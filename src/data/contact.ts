@@ -20,7 +20,7 @@ export const socialLinks = [
   {
     name: "GitHub",
 
-    href: "https://github.com/Muzaffar-Ameen",
+    href: "https://github.com/Muzafar-Tech",
 
     icon: "mdi:github",
   },
@@ -51,7 +51,7 @@ export const socialLinks = [
   {
     name: "WhatsApp",
 
-    href: "https://wa.me/923474862915",
+    href: "https://wa.me/923203685961",
 
     icon: "ic:baseline-whatsapp",
   },

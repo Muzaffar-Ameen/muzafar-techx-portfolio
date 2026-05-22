@@ -19,10 +19,10 @@ function AboutImage() {
           <div className="absolute left-[-12px] top-[140px] h-14 w-14 rounded-full border border-purple-500/20 bg-purple-500/10 blur-sm" />
 
           {/* IMAGE */}
-          <div className="relative z-10 flex items-end justify-center px-4 pt-8">
+          <div className="relative z-10 flex items-end justify-center px-4 pt-8 mr-8">
             <img
               src={aboutProfile}
-              alt="Muzaffar"
+              alt="Muzafar Tech"
               className="
               scale-[1.9]
                 h-[340px]
@@ -43,14 +43,14 @@ function AboutImage() {
               className="rotate-[-6deg] bg-gradient-to-r from-cyan-200 via-sky-300 to-blue-400 bg-clip-text text-[40px] font-bold leading-[0.9] tracking-normal text-transparent drop-shadow-[0_0_22px_rgba(34,211,238,0.85)]"
               style={{ fontFamily: "'Dancing Script', cursive" }}
             >
-              Muzaffar
+              Muzafar
             </h2>
 
             <h2
               className="-mt-2 ml-8 rotate-[-6deg] bg-gradient-to-r from-cyan-200 via-sky-300 to-blue-400 bg-clip-text text-[40px] font-bold leading-[0.9] tracking-normal text-transparent drop-shadow-[0_0_22px_rgba(34,211,238,0.85)]"
               style={{ fontFamily: "'Dancing Script', cursive" }}
             >
-              Ameen
+              Tech
             </h2>
           </div>
         </div>

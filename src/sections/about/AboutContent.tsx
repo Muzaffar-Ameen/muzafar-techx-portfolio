@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa";
 import cvFile from "../../assets/cv/muzaffar-cv.pdf";
 
 const features = [
-  "Computer Science Graduate",
+  "Modern Web Application Specialist",
   "Full Stack MERN Developer",
   "Automation & AI Enthusiast",
   "Open to Opportunities",
@@ -29,9 +29,10 @@ function AboutContent() {
 
       {/* DESCRIPTION */}
       <p className="mt-5 max-w-[620px] text-[15px] leading-7 text-textSecondary">
-        I'm Muzaffar Ameen, an Associate Software Engineer based in Lahore,
-        Pakistan. I specialize in building exceptional digital experiences using
-        the MERN stack and modern technologies.
+        I'm a Full Stack MERN Developer focused on building modern, scalable,
+        and high-performance digital solutions. I specialize in creating clean
+        user experiences, powerful backend systems, and smart automation
+        workflows using modern web technologies.
       </p>
 
       <p className="mt-4 max-w-[620px] text-[15px] leading-7 text-textSecondary">

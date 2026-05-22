@@ -4,8 +4,8 @@ export const experiences = [
   {
     id: 1,
     role: "Full Stack Developer",
-    company: "BerryBoost • Lahore",
-    duration: "Apr 2026 - Present",
+    company: "IT Genesis • Lahore",
+    duration: "March 2026 - Present",
     description:
       "Building scalable web applications using MERN stack and TypeScript.",
 
@@ -16,9 +16,9 @@ export const experiences = [
 
   {
     id: 2,
-    role: "MERN Stack Developer",
+    role: "REX Technologies",
     company: "Aspire Analytics • Lahore",
-    duration: "Sep 2025 - Nov 2025",
+    duration: "Aug 2025 - Nov 2025",
     description: "Worked on full-stack web applications using MERN stack.",
 
     icon: Code2,
@@ -29,8 +29,8 @@ export const experiences = [
   {
     id: 3,
     role: "MERN Stack Developer",
-    company: "THRIVE GRIT    • Lahore",
-    duration: "Dec 2025 - Mar 2026",
+    company: "Contour Software    • Lahore",
+    duration: "Dec 2025 - Feb 2026",
     description:
       "Delivered 3+ full-stack applications from requirements to deployment.",
 
@@ -43,7 +43,7 @@ export const experiences = [
     id: 4,
     role: "Full Stack Developer (FYP)",
     company: "CareerQuest • University Project",
-    duration: "Jan 2025 - Jul 2025",
+    duration: "Jul 2024 - Jul 2025",
     description:
       "Developed career counseling platform with personality assessment and AI recommendations.",
 
