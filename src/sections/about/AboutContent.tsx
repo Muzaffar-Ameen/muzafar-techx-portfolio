@@ -1,11 +1,11 @@
 import GlassCard from "../../components/ui/GlassCard";
-import GlowButton from "../../components/ui/GlowButton";
+// import GlowButton from "../../components/ui/GlowButton";
 
-import { CheckCircle2, Download } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 
 import { FaGithub } from "react-icons/fa";
 
-import cvFile from "../../assets/cv/muzaffar-cv.pdf";
+// import cvFile from "../../assets/cv/muzaffar-cv.pdf";
 
 const features = [
   "Modern Web Application Specialist",
@@ -58,17 +58,17 @@ function AboutContent() {
       {/* BUTTONS */}
       <div className="mt-6 flex items-center gap-2 sm:gap-4">
         {/* CV */}
-        <a href={cvFile} download>
+        {/* <a href={cvFile} download>
           <GlowButton className="!inline-flex !flex-row !items-center !justify-center gap-3 whitespace-nowrap px-[12px] py-[12px] sm:px-7 sm:py-4">
             <span className="leading-none">Download CV</span>
 
             <Download size={19} className="shrink-0" />
           </GlowButton>
-        </a>
+        </a> */}
 
         {/* GITHUB */}
         <a
-          href="https://github.com/Muzaffar-Ameen"
+          href="https://github.com/Muzafar-Tech"
           target="_blank"
           rel="noreferrer"
         >
