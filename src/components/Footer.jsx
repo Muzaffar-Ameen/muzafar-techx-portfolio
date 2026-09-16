@@ -285,7 +285,7 @@ function Footer() {
                       </span>
 
                       <span className="mt-1 block text-xs text-text-secondary sm:text-sm">
-                        +92 341 4642198
+                        +92 347 4862915
                       </span>
                     </span>
                   </a>
