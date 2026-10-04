@@ -37,7 +37,7 @@ export const heroData = {
 
   stats: [
     {
-      value: "3+",
+      value: "2+",
       label: "Years Experience",
       icon: "solar:calendar-linear",
     },
@@ -294,7 +294,7 @@ export const experienceData = [
 
 export const experienceSummary = [
   {
-    value: "3+",
+    value: "2+",
     label: "Years Experience",
     icon: "solar:calendar-linear",
   },
@@ -355,7 +355,7 @@ export const aboutData = {
 
   stats: [
     {
-      value: "3+",
+      value: "2+",
       label: "Years Experience",
       icon: "solar:calendar-linear",
     },
