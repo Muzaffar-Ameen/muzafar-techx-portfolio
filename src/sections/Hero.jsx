@@ -218,7 +218,7 @@ function Hero() {
   code: "clean",
   focus: "impact",
 
-  stack: ["MERN", "n8n"],
+  stack: ["AI", "MERN"],
 
   alwaysLearning: true
 
@@ -458,5 +458,3 @@ function Hero() {
 }
 
 export default Hero;
-
-

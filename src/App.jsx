@@ -75,8 +75,7 @@ function App() {
       </Routes>
 
       <Footer />
-<WhatsAppButton />
-
+      <WhatsAppButton />
     </>
   );
 }

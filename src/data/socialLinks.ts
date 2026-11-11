@@ -7,12 +7,12 @@
   {
     name: "LinkedIn",
     type: "linkedin",
-    href: "https://www.linkedin.com/in/muzaffar-ameen-fullstack",
+    href: "https://www.linkedin.com/in/muzafar-tech/",
   },
   {
     name: "Email",
     type: "email",
-    href: "mailto:muzaffarameendev@gmail.com",
+    href: "mailto:muzafar.techx@gmail.com",
   },
   {
     name: "Instagram",

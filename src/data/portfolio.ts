@@ -1,9 +1,8 @@
 export const heroData = {
-  role: "ASSOCIATE SOFTWARE ENGINEER",
+  role: "SENIOR AI & FULL STACK ENGINEER",
 
-  title: "{ Full Stack",
-
-  highlightedTitle: "MERN Developer }",
+  title: "{ AI-Powered",
+  highlightedTitle: "Full Stack Solutions }",
 
   technologies: [
     {
@@ -33,11 +32,11 @@ export const heroData = {
   ],
 
   description:
-    "Building scalable full-stack applications, REST APIs, enterprise solutions and AI-powered automation workflows.",
+    "Engineering scalable SaaS platforms, intelligent AI-powered applications, and high-performance web solutions through modern full-stack technologies, LLM integrations, and workflow automation.",
 
   stats: [
     {
-      value: "2+",
+      value: "7+",
       label: "Years Experience",
       icon: "solar:calendar-linear",
     },
@@ -56,10 +55,39 @@ export const heroData = {
 
 export const experienceData = [
   {
+    company: "10Pearls",
+    role: "Senior AI & Full Stack Engineer",
+    duration: "April 2026 – Present",
+    location: "Lahore, Pakistan",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEKWNkBDyxeERrD8aG3j1xx9ZtJuVk-shbrjPvq3mBcouJuvv3Yj1OC7cH&s=10",
+    description:
+      "Developing AI-powered applications, SaaS platforms, and scalable full-stack web solutions, with a focus on modern frontend technologies, backend engineering, AI/LLM integrations, and business automation.",
+    points: [
+      "Developing AI-powered applications, SaaS platforms, and scalable full-stack web solutions.",
+      "Building modern frontend interfaces using React.js and Next.js.",
+      "Developing backend services, REST APIs, and scalable systems using Node.js, Python, FastAPI, and .NET.",
+      "Working on AI/LLM integrations, AI agents, and business automation workflows using n8n.",
+      "Designing secure APIs, clean architecture, and high-performance applications.",
+      "Contributing to enterprise-grade web applications, admin dashboards, and business automation systems.",
+    ],
+    technologies: [
+      { name: "React.js", icon: "skill-icons:react-dark" },
+      { name: "Next.js", icon: "skill-icons:nextjs-dark" },
+      { name: "Node.js", icon: "skill-icons:nodejs-dark" },
+      { name: "Python", icon: "skill-icons:python-dark" },
+      { name: "FastAPI", icon: "skill-icons:fastapi" },
+      { name: ".NET", icon: "skill-icons:dotnet" },
+      { name: "n8n", icon: "simple-icons:n8n" },
+      { name: "AI / LLM", icon: "mdi:brain" },
+    ],
+  },
+
+  {
     company: "BerryBoost",
     location: "Lahore",
     role: "Full Stack Developer",
-    duration: "Apr 2026 – Present",
+    duration: "Apr 2022 – March 2026",
     icon: "solar:case-minimalistic-linear",
     mark: "",
     image:
@@ -105,7 +133,7 @@ export const experienceData = [
     company: "ThriveGrit Solutions",
     location: "Lahore",
     role: "MERN Stack Developer",
-    duration: "Dec 2025 – Mar 2026",
+    duration: "Dec 2020 – Mar 2022",
     icon: "solar:buildings-2-linear",
     mark: "",
     image:
@@ -144,7 +172,7 @@ export const experienceData = [
     company: "Aspire Analytica",
     location: "Lahore",
     role: "MERN Stack Developer",
-    duration: "Sep 2025 – Nov 2025",
+    duration: "July 2018  – November 2020",
     icon: "solar:code-square-linear",
     mark: "",
     image:
@@ -226,7 +254,7 @@ export const experienceData = [
     company: "University Project",
     location: "Lahore",
     role: "Full Stack Developer — CareerQuest FYP",
-    duration: "Jul 2024 – Jul 2025",
+    duration: "Jul 2017 – Jul 2018",
     icon: "solar:square-academic-cap-linear",
     mark: "",
     image:
@@ -260,46 +288,16 @@ export const experienceData = [
       },
     ],
   },
-  {
-    company: "Snexus",
-    role: "Web Development Intern",
-    duration: "May 2023 – Aug 2023",
-    location: "Lahore, Pakistan",
-    image:
-      "https://media.licdn.com/dms/image/v2/C4D0BAQGeC5TecfX23A/company-logo_200_200/company-logo_200_200/0/1630479802681/snexusllc_logo?e=2147483647&v=beta&t=5Wy8Lhk8LU6bTDRH3GhzPh5hAV6SI4GPr3v-z5MzWeI",
-    description:
-      "Completed a 3-month internship focused on fundamental web development concepts and frontend technologies.",
-    points: [
-      "Learned and practiced core web development concepts and frontend development fundamentals.",
-      "Worked with HTML, CSS, and JavaScript to understand website structure, styling, and basic interactivity.",
-      "Gained practical exposure to the web development workflow and strengthened foundational programming skills.",
-    ],
-
-    technologies: [
-      {
-        name: "HTML",
-        icon: "mdi:language-html5",
-      },
-      {
-        name: "CSS",
-        icon: "mdi:language-css3",
-      },
-      {
-        name: "JavaScript",
-        icon: "skill-icons:javascript",
-      },
-    ],
-  },
 ];
 
 export const experienceSummary = [
   {
-    value: "2+",
+    value: "7+",
     label: "Years Experience",
     icon: "solar:calendar-linear",
   },
   {
-    value: "3",
+    value: "4",
     label: "Companies",
     icon: "solar:buildings-2-linear",
   },
@@ -335,15 +333,15 @@ export const aboutData = {
       text: "I'm ",
       highlights: ["Muzaffar Ameen"],
       after:
-        ", an Associate Software Engineer based in Lahore, Pakistan. I enjoy building modern, scalable and reliable web applications that solve real-world problems.",
+        ", a Senior AI & Full Stack Engineer based in Lahore, Pakistan, specializing in MERN stack development and AI/LLM integration.",
     },
     {
-      text: "I work with the ",
-      highlights: ["MERN stack"],
+      text: "I build scalable SaaS platforms and modern web applications using ",
+      highlights: [" React.js, Next.js, Node.js, TypeScript, and Python."],
       after:
-        " to build full-stack applications, integrate REST APIs, create smooth user interfaces and automate workflows using ",
-      secondHighlight: "n8n",
-      secondAfter: " to improve productivity and streamline processes.",
+        "  My experience also includes developing REST APIs, RAG-based solutions, and AI-powered workflows using ",
+      secondHighlight: "OpenAI Embeddings, MongoDB Atlas Vector Search,",
+      secondAfter: "Google Gemini, and n8n.",
     },
     {
       text: "I love clean code, performance and great user experience. Currently ",
@@ -355,7 +353,7 @@ export const aboutData = {
 
   stats: [
     {
-      value: "2+",
+      value: "7+",
       label: "Years Experience",
       icon: "solar:calendar-linear",
     },
@@ -379,7 +377,7 @@ export const aboutData = {
   education: {
     degree: "Bachelor of Science in Computer Science",
     university: "University of Central Punjab (UCP), Lahore",
-    duration: "2021 – 2025",
+    duration: "2014 – 2018",
     cgpa: "3.63 / 4.0",
     icon: "solar:square-academic-cap-linear",
     image:

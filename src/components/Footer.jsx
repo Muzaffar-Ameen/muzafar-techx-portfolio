@@ -15,8 +15,12 @@ function Footer() {
 
   const technologies = [
     {
-      name: "React",
+      name: "React.js",
       icon: "logos:react",
+    },
+    {
+      name: "Next.js",
+      icon: "logos:nextjs-icon",
     },
     {
       name: "Node.js",
@@ -27,20 +31,25 @@ function Footer() {
       icon: "simple-icons:express",
     },
     {
-      name: "MongoDB",
-      icon: "logos:mongodb-icon",
-    },
-    {
-      name: "TypeScript",
-      icon: "logos:typescript-icon",
+      name: ".NET",
+      icon: "skill-icons:dotnet",
     },
     {
       name: "Tailwind CSS",
       icon: "logos:tailwindcss-icon",
     },
     {
-      name: "Git & GitHub",
-      icon: "mdi:git",
+      name: "RAG & AI/LLM",
+      icon: "mdi:brain",
+    },
+    {
+      name: "OpenAI Embeddings",
+      icon: "simple-icons:openai",
+    },
+
+    {
+      name: "n8n Automation",
+      icon: "simple-icons:n8n",
     },
   ];
 
@@ -261,7 +270,7 @@ function Footer() {
                       </span>
 
                       <span className="mt-1 block truncate text-xs text-text-secondary sm:text-sm">
-                        muzaffarameendev@gmail.com
+                        muzafar.techx@gmail.com
                       </span>
                     </span>
                   </a>
